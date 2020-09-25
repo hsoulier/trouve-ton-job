@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Lato:ital,wght@0,400;0,900;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  @apply bg-set-black text-set-white px-8 py-2 rounded-lg mt-4 font-bold;
+}
+
+.btn:hover {
+  @apply bg-set-gray1 text-set-black;
+}
+
+.transi {
+  @apply transition duration-500 ease-in-out;
+}
+
+.debug {
+  border: 1px solid red;
+}
+.debug * {
+  border: 1px solid red;
+}
+@tailwind utilities;
